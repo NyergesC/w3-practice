@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /*end of css reset*/
+
+  body {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+  }
+
+  div {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+  }
+
+  #cube1 {
+      background-color: #f58e94;
+      height: 400px;
+      width: 400px;
+  }
+
+  #cube2 {
+      background-color: #f2646b;
+      height: 380px;
+      width: 380px;
+  }
+
+  #cube3 {
+      background-color: #f37279;
+      height: 360px;
+      width: 360px;
+  }
+
+  #cube4 {
+      background-color: #f48086;
+      height: 340px;
+      width: 340px;
+  }
+
+  #cube5 {
+      background-color: #f58e94;        
+      height: 320px;
+      width: 320px;
+  }
+
+  #cube6 {
+      background-color: #f69ca1;       
+      height: 300px;
+      width: 300px;
+  }
+
+  #cube7 {
+      background-color: #f8abae;      
+      height: 280px;
+      width: 280px;
+  }
+
+  #cube8 {
+      background-color: #f9b9bc;      
+      height: 260px;
+      width: 260px;
+  }
+
+  #cube9 {
+      background-color: #fac7c9;      
+      height: 240px;
+      width: 240px;
+  }
+  #cube10 {
+      background-color: #fbd5d7;     
+      height: 220px;
+      width: 220px;
+  }
+
+
+  
+
